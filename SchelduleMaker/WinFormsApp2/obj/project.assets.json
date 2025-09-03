@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alikh\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+      "projectUniqueName": "C:\\Users\\alikh\\source\\repos\\SchelduleMaker\\WinFormsApp2\\WinFormsApp2.csproj",
       "projectName": "WinFormsApp2",
-      "projectPath": "C:\\Users\\alikh\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+      "projectPath": "C:\\Users\\alikh\\source\\repos\\SchelduleMaker\\WinFormsApp2\\WinFormsApp2.csproj",
       "packagesPath": "C:\\Users\\alikh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alikh\\source\\repos\\WinFormsApp2\\WinFormsApp2\\obj\\",
+      "outputPath": "C:\\Users\\alikh\\source\\repos\\SchelduleMaker\\WinFormsApp2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -79,12 +79,12 @@ namespace WinFormsApp2
     // ===== کلاس Scheduler =====
     public class Scheduler
     {
-        public List<Course> CourseList { get; set; } = new List<Course>();
+        public List<CourseOption> CourseList { get; set; } = new List<CourseOption>();
 
-        private static readonly string[] CanonicalDays =
+        public static readonly string[] CanonicalDays =
             { "شنبه", "یکشنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنج‌شنبه", "جمعه" };
 
-        public void AddCourse(Course course)
+        public void AddCourse(CourseOption course)
         {
             CourseList.Add(course);
         }
@@ -96,9 +96,9 @@ namespace WinFormsApp2
             {
                 for (int j = i + 1; j < CourseList.Count; j++)
                 {
-                    if (CourseList[i].Overlaps(CourseList[j]))
+                    if (CourseList[i].Course.Overlaps(CourseList[j].Course))
                     {
-                        conflicts.Add((CourseList[i].FirstSession["Day"].ToString(), CourseList[i].CourseName, CourseList[j].CourseName));
+                        conflicts.Add((CourseList[i].Course.FirstSession["Day"].ToString(), CourseList[i].Course.CourseName, CourseList[j].Course.CourseName));
                     }
                 }
             }
@@ -106,19 +106,18 @@ namespace WinFormsApp2
         }
 
         // تبدیل زمان HH:MM به ساعت اعشاری
-        public static double ParseTimeHHMM(string time)
+        public static bool TryParseTime(string input, out DateTime time)
         {
-            time = time.Trim();
-            time = PersianToEnglishDigits(time);
-            string[] parts = time.Split(':');
-            if (parts.Length != 2) throw new ArgumentException("فرمت ساعت باید HH:MM باشد.");
-
-            int h = int.Parse(parts[0]);
-            int m = int.Parse(parts[1]);
-
-            return h + m / 60.0;
+            time = DateTime.MinValue;
+            return DateTime.TryParseExact(
+                input,
+                "HH:mm",
+                System.Globalization.CultureInfo.InvariantCulture,
+                System.Globalization.DateTimeStyles.None,
+                out time
+            );
         }
-        private static string PersianToEnglishDigits(string s)
+        public static string PersianToEnglishDigits(string s)
         {
             char[] persianDigits = "۰۱۲۳۴۵۶۷۸۹".ToCharArray();
             char[] englishDigits = "0123456789".ToCharArray();

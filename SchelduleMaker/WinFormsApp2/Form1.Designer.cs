@@ -456,6 +456,7 @@
             btnAddSession.TabIndex = 54;
             btnAddSession.Text = "اضافه کردن جلسه(ها)";
             btnAddSession.UseVisualStyleBackColor = true;
+            btnAddSession.Click += btnAddSession_Click;
             // 
             // txtEndSday
             // 
@@ -625,6 +626,7 @@
             // 
             // button26
             // 
+            button26.Anchor = AnchorStyles.Top;
             button26.Enabled = false;
             button26.Font = new Font("IRANSansWeb", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button26.Location = new Point(1096, 144);
@@ -636,6 +638,7 @@
             // 
             // button27
             // 
+            button27.Anchor = AnchorStyles.Top;
             button27.Enabled = false;
             button27.Font = new Font("IRANSansWeb", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button27.Location = new Point(893, 144);
@@ -647,6 +650,7 @@
             // 
             // button28
             // 
+            button28.Anchor = AnchorStyles.Top;
             button28.Enabled = false;
             button28.Font = new Font("IRANSansWeb", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button28.Location = new Point(693, 144);
@@ -658,6 +662,7 @@
             // 
             // button29
             // 
+            button29.Anchor = AnchorStyles.Top;
             button29.Enabled = false;
             button29.Font = new Font("IRANSansWeb", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button29.Location = new Point(492, 144);
@@ -669,6 +674,7 @@
             // 
             // button30
             // 
+            button30.Anchor = AnchorStyles.Top;
             button30.Enabled = false;
             button30.Font = new Font("IRANSansWeb", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button30.Location = new Point(289, 144);
@@ -680,6 +686,7 @@
             // 
             // button31
             // 
+            button31.Anchor = AnchorStyles.Top;
             button31.Enabled = false;
             button31.Font = new Font("IRANSansWeb", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button31.Location = new Point(82, 144);
