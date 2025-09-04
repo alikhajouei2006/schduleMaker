@@ -39,10 +39,10 @@ namespace WinFormsApp2
                     string day2 = s2["Day"].ToString();
                     if (day1 != day2) continue;
 
-                    double start1 = Convert.ToDouble(s1["StartTime"]);
-                    double end1 = Convert.ToDouble(s1["EndTime"]);
-                    double start2 = Convert.ToDouble(s2["StartTime"]);
-                    double end2 = Convert.ToDouble(s2["EndTime"]);
+                    TimeSpan start1 = (TimeSpan)(s1["StartTime"]);
+                    TimeSpan end1 = (TimeSpan)(s1["EndTime"]);
+                    TimeSpan start2 = (TimeSpan)(s2["StartTime"]);
+                    TimeSpan end2 = (TimeSpan)(s2["EndTime"]);
 
                     // تداخل زمانی
                     if (!(end1 <= start2 || end2 <= start1))
@@ -106,16 +106,9 @@ namespace WinFormsApp2
         }
 
         // تبدیل زمان HH:MM به ساعت اعشاری
-        public static bool TryParseTime(string input, out DateTime time)
+        public static bool TryParseTime(string input, out TimeSpan result)
         {
-            time = DateTime.MinValue;
-            return DateTime.TryParseExact(
-                input,
-                "HH:mm",
-                System.Globalization.CultureInfo.InvariantCulture,
-                System.Globalization.DateTimeStyles.None,
-                out time
-            );
+            return TimeSpan.TryParseExact(input, "hh\\:mm", null, out result);
         }
         public static string PersianToEnglishDigits(string s)
         {
