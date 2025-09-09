@@ -24,32 +24,30 @@ namespace scheduler
 
         public List<List<CourseOption>> BuildSchedules(List<Course> courses)
         {
-            // گروه‌بندی کورس‌ها بر اساس اسم (هر گروه = یک درس با چند گزینه مختلف)
+
             var groups = courses
                 .GroupBy(c => c.CourseName)
                 .ToDictionary(g => g.Key, g => g.ToList());
 
-            // برای هر گروه، لیست CourseOptionها را تولید می‌کنیم:
-            // هر رکورد Course در گروه تبدیل به یک CourseOption می‌شود (هر رکورد خودش یک گزینه است).
+ 
             var optionsByCourseName = new List<List<CourseOption>>();
-            var courseNames = new List<string>(); // ترتیب ثابت برای backtracking
+            var courseNames = new List<string>();
 
             foreach (var kv in groups)
             {
                 string courseName = kv.Key;
-                var courseRecords = kv.Value; // List<Course>
+                var courseRecords = kv.Value; 
 
                 var opts = new List<CourseOption>();
                 foreach (var c in courseRecords)
                 {
-                    // sessions: اگر هر کدام موجود باشد اضافه کن (یکی یا دو تا)
+
                     var sessions = new List<Sessions.Session>();
                     if (c.FirstSession != null) sessions.Add(c.FirstSession);
                     if (c.SecondSession != null) sessions.Add(c.SecondSession);
                     opts.Add(new CourseOption(c, sessions));
                 }
 
-                // اگر هیچ گزینه‌ای نیست (نادر؛ اما ایمن باشیم) به جای خالی یک لیست اضافه نکن
                 if (opts.Count > 0)
                 {
                     optionsByCourseName.Add(opts);
@@ -64,7 +62,6 @@ namespace scheduler
             {
                 if (idx == optionsByCourseName.Count)
                 {
-                    // رسیدیم به یک ترکیب معتبر (current) -> اضافه کن
                     result.Add(new List<CourseOption>(current));
                     return;
                 }

@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|c:\\users\\alikh\\schdulemaker\\scheldulemaker\\project\\main(\u002Bui)\\scheldulemaker\\winformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|solutionrelative:winformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|c:\\users\\alikh\\schdulemaker\\scheldulemaker\\project\\main(\u002Bui)\\scheldulemaker\\winformsapp2\\scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|solutionrelative:winformsapp2\\scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|c:\\users\\alikh\\schdulemaker\\scheldulemaker\\project\\main(\u002Bui)\\scheldulemaker\\winformsapp2\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|solutionrelative:winformsapp2\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|c:\\users\\alikh\\schdulemaker\\scheldulemaker\\project\\main(\u002Bui)\\scheldulemaker\\winformsapp2\\courseoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|solutionrelative:winformsapp2\\courseoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|c:\\users\\alikh\\schdulemaker\\scheldulemaker\\project\\main(\u002Bui)\\scheldulemaker\\winformsapp2\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|solutionrelative:winformsapp2\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|c:\\users\\alikh\\schdulemaker\\scheldulemaker\\project\\main(\u002Bui)\\scheldulemaker\\winformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|solutionrelative:winformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|c:\\users\\alikh\\schdulemaker\\scheldulemaker\\project\\main(\u002Bui)\\scheldulemaker\\winformsapp2\\scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|solutionrelative:winformsapp2\\scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|c:\\users\\alikh\\schdulemaker\\scheldulemaker\\project\\main(\u002Bui)\\scheldulemaker\\winformsapp2\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|solutionrelative:winformsapp2\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|c:\\users\\alikh\\schdulemaker\\scheldulemaker\\project\\main(\u002Bui)\\scheldulemaker\\winformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18DB8F4-AE4A-4592-8EF7-5C12E893058A}|WinFormsApp2\\SchedulerMaker.csproj|solutionrelative:winformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,32 +43,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp2\\Form1.cs",
+              "ToolTip": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp2\\Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwLkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T19:13:43.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Session.cs",
               "DocumentMoniker": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Session.cs",
               "RelativeDocumentMoniker": "WinFormsApp2\\Session.cs",
               "ToolTip": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Session.cs",
               "RelativeToolTip": "WinFormsApp2\\Session.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAcwC4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T19:52:25.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Scheduler.cs",
               "DocumentMoniker": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Scheduler.cs",
               "RelativeDocumentMoniker": "WinFormsApp2\\Scheduler.cs",
               "ToolTip": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Scheduler.cs",
               "RelativeToolTip": "WinFormsApp2\\Scheduler.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAhwGMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T19:52:24.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Program.cs",
               "RelativeDocumentMoniker": "WinFormsApp2\\Program.cs",
@@ -81,39 +94,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp2\\Form1.cs",
-              "ToolTip": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Form1.cs",
-              "RelativeToolTip": "WinFormsApp2\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T19:52:23.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CourseOptions.cs",
               "DocumentMoniker": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\CourseOptions.cs",
               "RelativeDocumentMoniker": "WinFormsApp2\\CourseOptions.cs",
               "ToolTip": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\CourseOptions.cs",
               "RelativeToolTip": "WinFormsApp2\\CourseOptions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwB0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T19:52:23.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Course.cs",
               "RelativeDocumentMoniker": "WinFormsApp2\\Course.cs",
               "ToolTip": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(\u002BUi)\\SchelduleMaker\\WinFormsApp2\\Course.cs",
               "RelativeToolTip": "WinFormsApp2\\Course.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwCMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T19:52:22.461Z",
               "EditorCaption": ""

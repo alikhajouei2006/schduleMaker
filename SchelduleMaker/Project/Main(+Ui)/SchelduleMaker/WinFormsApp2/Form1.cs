@@ -118,7 +118,7 @@ namespace WinFormsApp2
                 return;
             }
 
-            // تولید تمام برنامه‌های ممکن (با منطق جدید گروه‌بندی بر اساس CourseName)
+            // make all posible schedules
             allSchedules = schedulerBackend.BuildSchedules(schedulerBackend.courses);
 
             if (allSchedules == null || allSchedules.Count == 0)
@@ -127,11 +127,9 @@ namespace WinFormsApp2
                 return;
             }
 
-            // نمایش اولین جدول
+            
             currentScheduleIndex = 0;
             DrawSchedule(allSchedules[currentScheduleIndex]);
-
-            // تنظیم کنترل شماره جدول
             numSchedule.Minimum = 1;
             numSchedule.Maximum = allSchedules.Count;
             numSchedule.Value = 1;
@@ -154,7 +152,7 @@ namespace WinFormsApp2
             string[] days = { "شنبه", "یکشنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنج‌شنبه" };
             int dayWidth = Math.Max(120, (panelSchedule.ClientSize.Width - timeColWidth - 2) / days.Length);
 
-            // روزها (هدر)
+            // days
             for (int d = 0; d < days.Length; d++)
             {
                 var lblDay = new Label()
@@ -170,7 +168,7 @@ namespace WinFormsApp2
                 panelSchedule.Controls.Add(lblDay);
             }
 
-            // ستون زمان
+            // time columns
             for (int i = 0; i <= endHour - startHour; i++)
             {
                 var lblTime = new Label()
@@ -185,8 +183,7 @@ namespace WinFormsApp2
                 panelSchedule.Controls.Add(lblTime);
             }
 
-            // رسم دقیقِ جلسه‌ها: از schedule (لیست CourseOption) استفاده کن،
-            // و برای هر option تمام Sessions_ اش را رسم کن.
+            // draw each session
             foreach (var option in schedule)
             {
                 foreach (var session in option.Sessions_)

@@ -1,4 +1,6 @@
-﻿namespace WinFormsApp2
+﻿using System.Runtime.CompilerServices;
+
+namespace WinFormsApp2
 {
     partial class Form1
     {
@@ -19,7 +21,16 @@
             }
             base.Dispose(disposing);
         }
-
+        private void initializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "Scheduler Maker";
+            this.Text = "Scheduler Maker";
+            this.ResumeLayout(false);
+        }
         #region Windows Form Designer generated code
 
         /// <summary>

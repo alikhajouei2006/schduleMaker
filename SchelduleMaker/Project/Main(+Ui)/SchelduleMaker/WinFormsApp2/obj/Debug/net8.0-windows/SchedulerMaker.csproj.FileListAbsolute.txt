@@ -1,3 +1,5 @@
+C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\bin\Debug\net8.0-windows\SchedulerMaker.exe
+C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\bin\Debug\net8.0-windows\SchedulerMaker.dll
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.Form1.resources
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\SchedulerMaker.csproj.GenerateResource.cache
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\SchedulerMaker.GeneratedMSBuildEditorConfig.editorconfig
@@ -5,13 +7,11 @@ C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinF
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\SchedulerMaker.AssemblyInfo.cs
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\SchedulerMaker.csproj.CoreCompileInputs.cache
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\SchedulerMaker.sourcelink.json
-C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\bin\Debug\net8.0-windows\SchedulerMaker.exe
-C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\bin\Debug\net8.0-windows\SchedulerMaker.deps.json
-C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\bin\Debug\net8.0-windows\SchedulerMaker.runtimeconfig.json
-C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\bin\Debug\net8.0-windows\SchedulerMaker.dll
-C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\bin\Debug\net8.0-windows\SchedulerMaker.pdb
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\SchedulerMaker.dll
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\refint\SchedulerMaker.dll
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\SchedulerMaker.pdb
+C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\bin\Debug\net8.0-windows\SchedulerMaker.deps.json
+C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\bin\Debug\net8.0-windows\SchedulerMaker.runtimeconfig.json
+C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\bin\Debug\net8.0-windows\SchedulerMaker.pdb
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\SchedulerMaker.genruntimeconfig.cache
 C:\Users\alikh\schduleMaker\SchelduleMaker\Project\Main(+Ui)\SchelduleMaker\WinFormsApp2\obj\Debug\net8.0-windows\ref\SchedulerMaker.dll
