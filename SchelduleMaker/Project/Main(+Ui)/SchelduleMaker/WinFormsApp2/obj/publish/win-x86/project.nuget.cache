@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "KgG5ms4IclE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alikh\\schduleMaker\\SchelduleMaker\\Project\\Main(+Ui)\\SchelduleMaker\\WinFormsApp2\\SchedulerMaker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alikh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.14\\microsoft.netcore.app.runtime.win-x86.8.0.14.nupkg.sha512",
+    "C:\\Users\\alikh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.14\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.14.nupkg.sha512",
+    "C:\\Users\\alikh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.14\\microsoft.aspnetcore.app.runtime.win-x86.8.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
