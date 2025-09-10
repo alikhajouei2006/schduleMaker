@@ -24,6 +24,8 @@ namespace WinFormsApp2
             // set background color
             this.BackColor = ColorTranslator.FromHtml("#ecf8f8");
 
+            cbFday.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbSday.DropDownStyle = ComboBoxStyle.DropDownList;
             // set labels color
             Label[] labels = { label1, label2, label3, label4, label5, label6, label7, label8 };
             foreach (var lbl in labels)

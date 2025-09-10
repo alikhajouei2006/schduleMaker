@@ -21,7 +21,7 @@ namespace scheduler
                 courses.Add(course);
             }
         }
-
+        
         public List<List<CourseOption>> BuildSchedules(List<Course> courses)
         {
 
