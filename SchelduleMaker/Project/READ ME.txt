@@ -4,7 +4,6 @@ A simple yet powerful desktop application for creating and managing weekly unive
 The app helps students generate all possible valid timetable combinations based on courses, instructors, and available times, allowing them to choose or save the best option.
 
 
----
 
 ✨ Features
 
@@ -18,7 +17,6 @@ The app helps students generate all possible valid timetable combinations based 
 
 
 
----
 
 🛠️ Tech Stack
 
@@ -26,7 +24,7 @@ Language: C#
 
 Framework: .NET WinForms
 
----
+
 
 🚀 Getting Started
 
@@ -43,8 +41,6 @@ git clone https://github.com/alikhajouei2006/schduleMaker
 
 
 
----
-
 📂 Project Structure
 
 ScheduleMaker/
@@ -57,8 +53,6 @@ ScheduleMaker/
 ├── README.md        # Documentation  
 └── LICENSE          # License file
 
-
----
 
 💡 Future Improvements
 
