@@ -1,0 +1,75 @@
+📅 University Schedule Builder
+
+A simple yet powerful desktop application for creating and managing weekly university schedules, built with C# WinForms.
+The app helps students generate all possible valid timetable combinations based on courses, instructors, and available times, allowing them to choose or save the best option.
+
+
+---
+
+✨ Features
+
+✅ Add courses with multiple instructors and different time slots
+
+✅ Automatically generate all valid, non-conflicting schedules
+
+✅ Visual display of schedules in a weekly grid format
+
+✅ Clean and easy-to-use interface
+
+
+
+---
+
+🛠️ Tech Stack
+
+Language: C#
+
+Framework: .NET WinForms
+
+---
+
+🚀 Getting Started
+
+1. Clone the repository:
+
+git clone https://github.com/alikhajouei2006/schduleMaker
+
+
+2. Open the solution in Visual Studio.
+
+
+3. Build and run the project.
+
+
+
+
+---
+
+📂 Project Structure
+
+ScheduleMaker/
+│
+├── Models/          # Course, Session, Schedule classes  
+├── Scheduler/       # Schedule builder logic  
+├── Helper/          # Ancillary  
+├── Main(+Ui)/       # Main project & User interface  
+├── Setup            # executable files
+├── README.md        # Documentation  
+└── LICENSE          # License file
+
+
+---
+
+💡 Future Improvements
+
+customizated for colors/themes
+
+Support for semester planning
+
+Advanced conflict detection
+
+
+
+📜 License
+
+This project is licensed under the MIT License – see the LICENSE file for details.
