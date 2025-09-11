@@ -23,7 +23,7 @@ namespace WinFormsApp2
         {
             // set background color
             this.BackColor = ColorTranslator.FromHtml("#ecf8f8");
-
+            AutoScaleMode = AutoScaleMode.Dpi;
             cbFday.DropDownStyle = ComboBoxStyle.DropDownList;
             cbSday.DropDownStyle = ComboBoxStyle.DropDownList;
             // set labels color
