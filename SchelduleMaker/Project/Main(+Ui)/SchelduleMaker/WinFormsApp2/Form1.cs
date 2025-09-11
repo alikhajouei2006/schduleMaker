@@ -161,7 +161,7 @@ namespace WinFormsApp2
                 {
                     Text = days[d],
                     Location = new Point(timeColWidth + d * dayWidth, 0),
-                    Size = new Size(dayWidth, 24),
+                    Size = new Size(dayWidth, 35),
                     BorderStyle = BorderStyle.FixedSingle,
                     TextAlign = ContentAlignment.MiddleCenter,
                     Font = new Font("Tahoma", 10, FontStyle.Bold),
